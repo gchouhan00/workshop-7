@@ -1,0 +1,11 @@
+﻿  BankAccount.cpp
+C:\Users\gitik\OneDrive\Desktop\personal2.0\oop\workshops\Project7\BankAccount.cpp(66,24): error C2662: 'std::ostream &seneca::BankAccount::write(std::ostream &)': cannot convert 'this' pointer from 'const seneca::BankAccount' to 'seneca::BankAccount &'
+C:\Users\gitik\OneDrive\Desktop\personal2.0\oop\workshops\Project7\BankAccount.cpp(66,10): message : Conversion loses qualifiers
+C:\Users\gitik\OneDrive\Desktop\personal2.0\oop\workshops\Project7\BankAccount.cpp(32,24): message : see declaration of 'seneca::BankAccount::write'
+  SavingsAccount.cpp
+C:\Users\gitik\OneDrive\Desktop\personal2.0\oop\workshops\Project7\SavingsAccount.cpp(18,191): error C2512: 'seneca::BankAccount': no appropriate default constructor available
+C:\Users\gitik\OneDrive\Desktop\personal2.0\oop\workshops\Project7\BankAccount.h(10,8): message : see declaration of 'seneca::BankAccount'
+C:\Users\gitik\OneDrive\Desktop\personal2.0\oop\workshops\Project7\SavingsAccount.cpp(57,24): error C2662: 'std::ostream &seneca::SavingsAccount::write(std::ostream &)': cannot convert 'this' pointer from 'const seneca::SavingsAccount' to 'seneca::SavingsAccount &'
+C:\Users\gitik\OneDrive\Desktop\personal2.0\oop\workshops\Project7\SavingsAccount.cpp(57,10): message : Conversion loses qualifiers
+C:\Users\gitik\OneDrive\Desktop\personal2.0\oop\workshops\Project7\SavingsAccount.cpp(35,27): message : see declaration of 'seneca::SavingsAccount::write'
+  Generating Code...
